@@ -30,5 +30,8 @@ public class Contrat {
     @JoinColumn(name = "idLoyer")
     private Loyer loyer;
 
+    @ManyToOne
+    @JoinColumn(name = "locataire_id")
+    private Locataire locataire;
 
 }
