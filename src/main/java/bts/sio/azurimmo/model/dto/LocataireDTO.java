@@ -9,6 +9,7 @@ import java.sql.Date;
 @Setter
 public class LocataireDTO {
 
+    private Long id;
     private String nom;
     private String prenom;
     private Long tel;
@@ -16,3 +17,4 @@ public class LocataireDTO {
     private Date dateNaissance;
     private String profession;
 }
+
